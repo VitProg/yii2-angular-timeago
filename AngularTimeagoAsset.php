@@ -12,7 +12,7 @@ class AngularTimeagoAsset extends \yii\web\AssetBundle
     /**
      * @inheritdoc
      */
-    public $sourcePath = '@bower/angular-timeago';
+    public $sourcePath = '@bower/angular-timeago/src';
 
     /**
      * @inheritdoc
