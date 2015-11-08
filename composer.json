@@ -1,0 +1,33 @@
+{
+    "name": "vitprog/yii2-angular-timeago",
+    "description": "Yii2 angular timeago asset",
+    "keywords": ["yii2", "angularjs"],
+    "type": "yii2-extension",
+    "license": "BSD-3-Clause",
+    "support": {
+        "issues": "https://github.com/vitprog/yii2-angular-timeago/issues",
+        "source": "https://github.com/vitprog/yii2-angular-timeago"
+    },
+    "authors": [
+        {
+            "name": "VitProg",
+            "email": "vitprog@gmail.com"
+        }
+    ],
+	"repositories" : [
+      {
+		"url": "https://github.com/VitProg/yii2-angular",
+        "type": "git"
+      }
+    ],
+    "require": {
+        "yiisoft/yii2": ">=2.0.4",
+		"vitprog/yii2-angular": "1.3.2",
+        "bower-asset/angular-timeago": "*",
+    },
+    "autoload": {
+        "psr-4": {
+            "vitprog\\angular\\timeago\\": ""
+        }
+    },
+}
