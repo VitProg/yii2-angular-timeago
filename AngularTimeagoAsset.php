@@ -1,6 +1,6 @@
 <?php
 
-namespace vitprog\angular\timeago\;
+namespace vitprog\angular\timeago;
 
 /**
  * AngularTimeagoAsset
